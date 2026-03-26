@@ -15,133 +15,6 @@
     imagePath: '../assets/images/downloads/pubg 1.avif'
   },
   {
-    id: 2,
-    game: 'Clash of Clans',
-    title: 'TH15 Max Heroes Premium Base',
-    levelLabel: 'Elite',
-    levelBand: 'elite',
-    region: 'Global',
-    features: ['TH15 base', 'Max heroes', 'Rare scenery'],
-    price: 280,
-    status: 'available',
-    statusKey: 'available',
-    listedAt: '2026-03-22',
-    imageClass: 'listing-coc'
-  },
-  {
-    id: 3,
-    game: 'Free Fire',
-    title: 'Sakura Bundle Ranked Account',
-    levelLabel: 'High',
-    levelBand: 'high',
-    region: 'Asia',
-    features: ['Elite Pass items', 'Rare emotes', 'Diamond reserve'],
-    price: 95,
-    status: 'hot',
-    statusKey: 'hot',
-    listedAt: '2026-03-26',
-    imageClass: 'listing-ff'
-  },
-  {
-    id: 4,
-    game: 'Call of Duty Mobile',
-    title: 'Legendary Multiplayer Account',
-    levelLabel: 'High',
-    levelBand: 'high',
-    region: 'Europe',
-    features: ['Legendary rank', 'Epic blueprints', 'Battle pass unlocks'],
-    price: 170,
-    status: 'available',
-    statusKey: 'available',
-    listedAt: '2026-03-24',
-    imageClass: 'listing-codm'
-  },
-  {
-    id: 5,
-    game: 'Other Games',
-    title: 'Mobile Legends Mythic Account',
-    levelLabel: 'Mid',
-    levelBand: 'mid',
-    region: 'Middle East',
-    features: ['Mythic rank', 'Hero skins', 'Ready to transfer'],
-    price: 110,
-    status: 'available',
-    statusKey: 'available',
-    listedAt: '2026-03-20',
-    imageClass: 'listing-other'
-  },
-  {
-    id: 6,
-    game: 'PUBG',
-    title: 'Ace Master Account with X-Suit',
-    levelLabel: 'High',
-    levelBand: 'high',
-    region: 'Asia',
-    features: ['X-Suit', 'Upgrade skins', 'Good inventory'],
-    price: 230,
-    status: 'reserved',
-    statusKey: 'reserved',
-    listedAt: '2026-03-18',
-    imageClass: 'listing-pubg',
-    imagePath: '../assets/images/downloads/pubg 2.png'
-  },
-  {
-    id: 7,
-    game: 'Clash of Clans',
-    title: 'TH13 War Ready Strong Defense',
-    levelLabel: 'Mid',
-    levelBand: 'mid',
-    region: 'North America',
-    features: ['War army', 'Strong defense', 'Active clan ready'],
-    price: 140,
-    status: 'available',
-    statusKey: 'available',
-    listedAt: '2026-03-21',
-    imageClass: 'listing-coc'
-  },
-  {
-    id: 8,
-    game: 'Free Fire',
-    title: 'Elite Bundle Account with Evo Gun',
-    levelLabel: 'Mid',
-    levelBand: 'mid',
-    region: 'Global',
-    features: ['Evo gun', 'Rare bundle', 'Fast login transfer'],
-    price: 130,
-    status: 'sold',
-    statusKey: 'sold',
-    listedAt: '2026-03-17',
-    imageClass: 'listing-ff'
-  },
-  {
-    id: 9,
-    game: 'Call of Duty Mobile',
-    title: 'Battle Royale Specialist Account',
-    levelLabel: 'Starter',
-    levelBand: 'starter',
-    region: 'Global',
-    features: ['Clean account', 'Battle royale focus', 'Budget option'],
-    price: 75,
-    status: 'available',
-    statusKey: 'available',
-    listedAt: '2026-03-19',
-    imageClass: 'listing-codm'
-  },
-  {
-    id: 10,
-    game: 'Other Games',
-    title: 'Valorant Starter Account with Skins',
-    levelLabel: 'Starter',
-    levelBand: 'starter',
-    region: 'Europe',
-    features: ['Starter rank', 'Skin bundle', 'Good nickname'],
-    price: 60,
-    status: 'hot',
-    statusKey: 'hot',
-    listedAt: '2026-03-26',
-    imageClass: 'listing-other'
-  },
-  {
     id: 11,
     game: 'PUBG',
     title: 'Ultimate Collector Account',
@@ -154,23 +27,9 @@
     statusKey: 'available',
     listedAt: '2026-03-23',
     imageClass: 'listing-pubg',
-    imagePath: '../assets/images/downloads/pubg 3.jpg'
+    imagePath: '../assets/images/downloads/pubg 2.png'
   },
   {
-    id: 12,
-    game: 'Other Games',
-    title: 'Brawl Stars Competitive Account',
-    levelLabel: 'High',
-    levelBand: 'high',
-    region: 'Asia',
-    features: ['Competitive build', 'Skins included', 'Ranked ready'],
-    price: 150,
-    status: 'available',
-    statusKey: 'available',
-    listedAt: '2026-03-16',
-    imageClass: 'listing-other'
-  }
-  ,{
     id: 13,
     game: 'PUBG',
     title: 'R2743 New Conqueror Mythic Fashion Account',
@@ -184,9 +43,8 @@
     statusKey: 'available',
     listedAt: '2026-03-26',
     imageClass: 'listing-pubg',
-    imagePath: '../assets/images/downloads/pubg 4.png'
-  }
-,
+    imagePath: '../assets/images/downloads/pubg 3.jpg'
+  },
   {
     id: 14,
     game: 'PUBG',
@@ -201,9 +59,8 @@
     statusKey: 'hot',
     listedAt: '2026-03-26',
     imageClass: 'listing-pubg',
-    imagePath: '../assets/images/downloads/pubg 5.jpg'
-  }
-,
+    imagePath: '../assets/images/downloads/pubg 4.png'
+  },
   {
     id: 15,
     game: 'PUBG',
@@ -219,9 +76,8 @@
     statusKey: 'hot',
     listedAt: '2026-03-26',
     imageClass: 'listing-pubg',
-    imagePath: '../assets/images/downloads/pubg 6.jpeg'
-  }
-,
+    imagePath: '../assets/images/downloads/pubg 5.jpg'
+  },
   {
     id: 16,
     game: 'PUBG',
@@ -236,8 +92,6 @@
     statusKey: 'available',
     listedAt: '2026-03-26',
     imageClass: 'listing-pubg',
-    imagePath: '../assets/images/downloads/pubg 7.webp'
+    imagePath: '../assets/images/downloads/pubg 6.jpeg'
   }
 ];
-
-
