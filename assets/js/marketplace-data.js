@@ -182,5 +182,55 @@
     listedAt: '2026-03-26',
     imageClass: 'listing-pubg'
   }
+,
+  {
+    id: 14,
+    game: 'PUBG',
+    title: 'Ac H S no 000027 Ultimate X-Suit Account',
+    levelLabel: '83',
+    levelBand: 'elite',
+    region: 'Global',
+    features: ['Collection Level 74.6', 'Total Mythic 222', 'Inferno Helmet', 'Yellow Hair', 'Face + Hair + Beard', '6x Sports Car', '9x Ultimate Set', 'Total X-Suit 5', 'Fiore X-Suit 4 Star', 'Poseidon X-Suit 3 Star', '8x Mythic Lobby', 'God Inventory', 'Total Gunlab 77', '6x Gun Max', '7x M4 in account', '26 kill messages level 4', '5x RP gun kill message'],
+    price: 50000,
+    currency: 'AFN',
+    status: 'hot',
+    statusKey: 'hot',
+    listedAt: '2026-03-26',
+    imageClass: 'listing-pubg'
+  }
+,
+  {
+    id: 15,
+    game: 'PUBG',
+    title: '96 Collection Maxed-Out Premium PUBG Account',
+    levelLabel: '96 Collection',
+    levelBand: 'elite',
+    region: 'Global',
+    features: ['96 Collection X Emotes', '96 Collection Maxed Out', 'Collection Mythic #850', '2025 Frost Title', '2021 Cyberweek Top 100', '2023 Snow Conqueror', 'Lamborghini Collector', 'Ultimate Fashion Title', 'Honor Fighter Title', 'Berserker Title', '51.55M Popularity Level 7', '2.85M Clout Level 36', '13x X-Suit Unlocked', 'Golden Pharaoh X-Suit Level 7', 'Avalanche X-Suit Level 7', 'Blood Raven X-Suit Level 6', 'Poseidon X-Suit Level 6', 'Silvanus X-Suit Level 6', '167x Gunlab Unlocked', '109x Gunlab Maxed Out', '40x Sports Cars', '5x Masterpieces'],
+    price: 15350,
+    currency: 'USDT',
+    priceDisplay: '4450K PKR / 15350$ (USDT)',
+    status: 'hot',
+    statusKey: 'hot',
+    listedAt: '2026-03-26',
+    imageClass: 'listing-pubg'
+  }
+,
+  {
+    id: 16,
+    game: 'PUBG',
+    title: 'ACCOUNT N.S 430 Old PUBG Account',
+    levelLabel: 'Old Account',
+    levelBand: 'mid',
+    region: 'Global',
+    features: ['Impossible A Set', 'S7 Beard', 'S5 Hair', '1x Sport Car', 'Full TDM Account'],
+    price: 10000,
+    currency: 'AFN',
+    status: 'available',
+    statusKey: 'available',
+    listedAt: '2026-03-26',
+    imageClass: 'listing-pubg',
+    imagePath: '../assets/images/downloads/pubg 1.avif'
+  }
 ];
 

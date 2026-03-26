@@ -34,7 +34,8 @@ function getMarketplaceText(key, fallback = '') {
 /* -------------------------
    Filtering helpers
    ------------------------- */
-function formatMarketplacePrice(price, currency = 'USD') {
+function formatMarketplacePrice(price, currency = 'USD', priceDisplay = '') {
+  if (priceDisplay) return priceDisplay;
   if (currency === 'AFN') return `${price.toLocaleString()} AFN`;
   return `$${price}`;
 }
@@ -84,7 +85,7 @@ function createMarketplaceCard(item) {
   return `
     <div class="col-md-6 col-xl-4 scroll-reveal">
       <article class="market-card">
-        <div class="market-card-media ${item.imageClass}"><img class="market-card-photo" src="../assets/images/downloads/${item.imageClass === 'listing-pubg' ? 'pubg-market.jpg' : item.imageClass === 'listing-coc' ? 'pubg-squad.jpg' : item.imageClass === 'listing-ff' ? 'pubg-action.jpg' : item.imageClass === 'listing-codm' ? 'pubg-cta.jpg' : 'pubg-hero.jpg'}" alt="${item.game} account visual">
+        <div class="market-card-media ${item.imageClass}"><img class="market-card-photo" src="${item.imagePath || `../assets/images/downloads/${item.imageClass === 'listing-pubg' ? 'pubg-market.jpg' : item.imageClass === 'listing-coc' ? 'pubg-squad.jpg' : item.imageClass === 'listing-ff' ? 'pubg-action.jpg' : item.imageClass === 'listing-codm' ? 'pubg-cta.jpg' : 'pubg-hero.jpg'}`}" alt="${item.game} account visual">
           <span class="market-status ${item.statusKey}">${statusLabel}</span>
           <span class="market-game">${item.game}</span>
         </div>
@@ -98,7 +99,7 @@ function createMarketplaceCard(item) {
           <div class="market-card-footer">
             <div>
               <div class="market-price-label">${cardsText.price || 'Price'}</div>
-              <div class="market-price">${formatMarketplacePrice(item.price, item.currency)}</div>
+              <div class="market-price">${formatMarketplacePrice(item.price, item.currency, item.priceDisplay)}</div>
             </div>
             <div class="market-actions">
               <a href="contact.html" class="btn btn-info offer-cta">${buyLabel}</a>
@@ -259,6 +260,8 @@ function initializeMarketplacePage() {
 }
 
 document.addEventListener('DOMContentLoaded', initializeMarketplacePage);
+
+
 
 
 
