@@ -1,8 +1,22 @@
-﻿const ucPackages = [
-  { id: 1, ucAmount: 60, price: 0.99, discount: '', featured: false },
-  { id: 2, ucAmount: 300, price: 4.49, discount: '5% OFF', featured: false },
-  { id: 3, ucAmount: 600, price: 8.79, discount: '8% OFF', featured: true },
-  { id: 4, ucAmount: 1500, price: 21.99, discount: '10% OFF', featured: true },
-  { id: 5, ucAmount: 3000, price: 41.99, discount: '12% OFF', featured: false },
-  { id: 6, ucAmount: 6000, price: 79.99, discount: '15% OFF', featured: true }
+const ucPackages = [
+  { id: 1, ucAmount: 60, priceAfn: 80, discount: '', featured: false },
+  { id: 2, ucAmount: 120, priceAfn: 150, discount: '', featured: false },
+  { id: 3, ucAmount: 180, priceAfn: 220, discount: '', featured: false },
+  { id: 4, ucAmount: 325, priceAfn: 350, discount: '', featured: false },
+  { id: 5, ucAmount: 385, priceAfn: 420, discount: '', featured: false },
+  { id: 6, ucAmount: 445, priceAfn: 500, discount: '', featured: false },
+  { id: 7, ucAmount: 660, priceAfn: 680, discount: '', featured: false },
+  { id: 8, ucAmount: 720, priceAfn: 750, discount: '', featured: false },
+  { id: 9, ucAmount: 780, priceAfn: 800, discount: '', featured: false },
+  { id: 10, ucAmount: 840, priceAfn: 850, discount: '', featured: false },
+  { id: 11, ucAmount: 985, priceAfn: 980, discount: 'Special Rate', featured: true },
+  { id: 12, ucAmount: 1045, priceAfn: 1050, discount: '', featured: false },
+  { id: 13, ucAmount: 1320, priceAfn: 1300, discount: 'Special Rate', featured: true },
+  { id: 14, ucAmount: 1440, priceAfn: 1450, discount: '', featured: false },
+  { id: 15, ucAmount: 1500, priceAfn: 1500, discount: '', featured: false },
+  { id: 16, ucAmount: 1800, priceAfn: 1750, discount: 'Special Rate', featured: true },
+  { id: 17, ucAmount: 2125, priceAfn: 2050, discount: 'Special Rate', featured: true },
+  { id: 18, ucAmount: 2460, priceAfn: 2350, discount: 'Special Rate', featured: true },
+  { id: 19, ucAmount: 3850, priceAfn: 3200, discount: 'Best Value', featured: true },
+  { id: 20, ucAmount: 8100, priceAfn: 6400, discount: 'Best Value', featured: true }
 ];

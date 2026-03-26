@@ -1592,3 +1592,45 @@ textarea::placeholder {
     inset-inline-end: 0;
   }
 }
+
+.payment-panel {
+  padding: 1.6rem;
+  background: linear-gradient(180deg, rgba(19,34,56,.92), rgba(11,20,34,.98));
+  border: 1px solid rgba(148,163,184,.16);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+
+.payment-method-card {
+  height: 100%;
+  padding: 1.25rem;
+  border-radius: 20px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(148,163,184,.14);
+  transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+
+.payment-method-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(34,211,238,.24);
+  box-shadow: var(--sg-shadow-glow);
+}
+
+.payment-method-card i {
+  display: inline-flex;
+  font-size: 1.4rem;
+  color: var(--cyan);
+  margin-bottom: .9rem;
+}
+
+.payment-method-card h3 {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin-bottom: .5rem;
+}
+
+.payment-method-card p {
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.65;
+}

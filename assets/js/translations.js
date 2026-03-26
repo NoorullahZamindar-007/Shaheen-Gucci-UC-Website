@@ -324,116 +324,149 @@ translations.ps.marketplacePage = {
 
 translations.en.ucPage = {
   kicker: 'PUBG UC Offers',
-  title: 'Fast PUBG UC packages with clear pricing and direct support.',
-  subtitle: 'Choose the package you want, compare offers instantly, and contact us through WhatsApp or Telegram for a quick transaction.',
-  heroPoint1: 'Quick response for purchases and confirmations',
-  heroPoint2: 'Clear package display with visible discounts',
+  title: 'PUBG UC top up through game ID with updated AFN prices.',
+  subtitle: 'Choose your UC package, confirm your payment method, and contact us for fast order processing.',
+  heroPoint1: 'Direct top up through game ID',
+  heroPoint2: 'Updated AFN package prices',
   heroPoint3: 'Direct WhatsApp and Telegram contact options',
   packagesKicker: 'UC Packages',
-  packagesTitle: 'Choose the right UC package for your next upgrade',
-  packagesSubtitle: 'Beautiful pricing cards designed for fast comparison on desktop and mobile.',
-  discountLabel: 'Discount',
-  cardNote: 'Quick contact support and fast order confirmation.',
+  packagesTitle: 'UC Normal prices through game ID',
+  packagesSubtitle: 'Updated AFN rates for direct PUBG UC top up through game ID.',
+  discountLabel: 'Offer',
+  cardNote: 'Direct top up through game ID with fast confirmation.',
   trustKicker: 'Why Buy From Us',
-  trustTitle: 'Built around quick support and a clean buyer experience',
-  trustSubtitle: 'This section highlights the service style and trust signals you can expand later with real operational details.',
+  trustTitle: 'Clear prices, direct contact, and quick confirmation',
+  trustSubtitle: 'We focus on simple ordering, trusted communication, and clear AFN pricing.',
   trustItems: {
-    one: { title: 'Fast Response', text: 'Quick confirmation and direct communication for UC package requests.' },
-    two: { title: 'Clear Pricing', text: 'Simple package cards with visible discounts, prices, and action buttons.' },
-    three: { title: 'Direct Support', text: 'Buyers can contact the seller through familiar messaging channels instantly.' }
+    one: { title: 'Fast Response', text: 'Quick reply for package confirmation and order support.' },
+    two: { title: 'Real Price List', text: 'Updated UC packages with direct AFN pricing shown clearly.' },
+    three: { title: 'Easy Payment', text: 'Multiple payment options make transactions easier for buyers.' }
   },
   contactKicker: 'Quick Contact',
   contactTitle: 'Need help choosing a package or ready to buy now?',
   contactSubtitle: 'Reach out through your preferred messaging app for fast support and order confirmation.',
+  paymentKicker: 'Payment Methods',
+  paymentTitle: 'Easy payment options for UC orders',
+  paymentSubtitle: 'After selecting a package, confirm payment with one of the methods below.',
+  paymentMethods: {
+    momo: 'MTN MoMo',
+    momoText: 'Fast mobile payment option.',
+    hesab: 'Hesab Pay',
+    hesabText: 'Simple account-to-account payment.',
+    hawala: 'Hawala',
+    hawalaText: 'Available for direct transfer arrangements.'
+  },
   faqKicker: 'UC FAQ',
   faqTitle: 'Common questions about PUBG UC transactions',
-  faqSubtitle: 'Short answers for the most common package and contact questions.',
+  faqSubtitle: 'Short answers for the most common package and payment questions.',
   faqItems: {
-    one: { q: 'How do I order a UC package?', a: 'Choose your package and contact us through WhatsApp or Telegram to confirm the transaction.' },
-    two: { q: 'Are discounts available on some packages?', a: 'Yes. Some packages can include promotional discounts, which are displayed directly on the pricing cards.' },
-    three: { q: 'What should I do if I need help before buying?', a: 'Use the quick contact buttons to ask about prices, package availability, and transaction steps before placing an order.' }
+    one: { q: 'How do I order a UC package?', a: 'Choose your package and contact us through WhatsApp or Telegram to confirm the order.' },
+    two: { q: 'Which payment methods are accepted?', a: 'We currently accept MTN MoMo, Hesab Pay, and Hawala.' },
+    three: { q: 'What should I do before sending payment?', a: 'Confirm your package, game ID, and payment details with the admin before paying.' }
   },
   noteKicker: 'Note / Disclaimer',
   noteTitle: 'Please confirm package details before completing a transaction',
-  noteText1: 'Prices on this page are sample placeholders for the frontend design and can be updated anytime.',
-  noteText2: 'Final package availability, delivery timing, and payment steps should always be confirmed directly with the seller or website owner.',
-  noteText3: 'Keep this section for trust, pricing clarity, and future policy notes when the site moves to live operations.'
+  noteText1: 'These UC prices are offered through game ID top up and may be updated when market rates change.',
+  noteText2: 'Confirm the selected package, payment method, and game ID details before sending payment.',
+  noteText3: 'For faster service, contact the admin directly through WhatsApp or Telegram after choosing your package.'
 };
 
 translations.fa.ucPage = {
   kicker: 'پیشنهادهای PUBG UC',
-  title: 'پکیج‌های PUBG UC با قیمت واضح و پشتیبانی مستقیم.',
-  subtitle: 'پکیج مورد نظر خود را انتخاب کنید، قیمت‌ها را سریع مقایسه کنید و از طریق واتساپ یا تلگرام برای تراکنش تماس بگیرید.',
-  heroPoint1: 'پاسخ سریع برای خرید و تایید سفارش',
-  heroPoint2: 'نمایش واضح پکیج‌ها با تخفیف‌های قابل مشاهده',
+  title: 'شارژ PUBG UC از طریق گیم آی‌دی با قیمت‌های به‌روز افغانی.',
+  subtitle: 'پکیج UC را انتخاب کنید، روش پرداخت را تایید کنید و برای ثبت سریع سفارش با ما تماس بگیرید.',
+  heroPoint1: 'شارژ مستقیم از طریق گیم آی‌دی',
+  heroPoint2: 'قیمت‌های به‌روز افغانی',
   heroPoint3: 'گزینه‌های تماس مستقیم واتساپ و تلگرام',
   packagesKicker: 'پکیج‌های UC',
-  packagesTitle: 'پکیج مناسب UC را برای ارتقای بعدی خود انتخاب کنید',
-  packagesSubtitle: 'کارت‌های زیبای قیمت برای مقایسه سریع در دسکتاپ و موبایل.',
-  discountLabel: 'تخفیف',
-  cardNote: 'پشتیبانی تماس سریع و تایید فوری سفارش.',
+  packagesTitle: 'قیمت‌های یوسی نورمال از طریق گیم آی‌دی',
+  packagesSubtitle: 'نرخ‌های به‌روز افغانی برای شارژ مستقیم PUBG UC از طریق گیم آی‌دی.',
+  discountLabel: 'آفر',
+  cardNote: 'شارژ مستقیم از طریق گیم آی‌دی با تایید سریع.',
   trustKicker: 'چرا از ما بخرید',
-  trustTitle: 'ساخته شده بر پایه پشتیبانی سریع و تجربه خرید منظم',
-  trustSubtitle: 'این بخش سبک خدمات و نکات اعتماد را نشان می‌دهد که بعداً می‌توانید با جزئیات واقعی کامل کنید.',
+  trustTitle: 'قیمت واضح، تماس مستقیم و تایید سریع',
+  trustSubtitle: 'ما روی سفارش ساده، ارتباط قابل اعتماد و نمایش واضح قیمت افغانی تمرکز داریم.',
   trustItems: {
-    one: { title: 'پاسخ سریع', text: 'تایید سریع و ارتباط مستقیم برای درخواست پکیج‌های UC.' },
-    two: { title: 'قیمت‌گذاری واضح', text: 'کارت‌های ساده با تخفیف، قیمت و دکمه‌های اقدام مشخص.' },
-    three: { title: 'پشتیبانی مستقیم', text: 'خریداران می‌توانند فوراً از طریق پیام‌رسان‌های آشنا تماس بگیرند.' }
+    one: { title: 'پاسخ سریع', text: 'پاسخ سریع برای تایید پکیج و راهنمایی سفارش.' },
+    two: { title: 'لیست قیمت واقعی', text: 'پکیج‌های UC با قیمت‌های واضح افغانی مستقیم نشان داده می‌شوند.' },
+    three: { title: 'پرداخت آسان', text: 'چندین روش پرداخت معامله را برای خریدار ساده‌تر می‌سازد.' }
   },
   contactKicker: 'تماس سریع',
   contactTitle: 'برای انتخاب پکیج کمک می‌خواهید یا آماده خرید هستید؟',
-  contactSubtitle: 'برای پشتیبانی سریع و تایید سفارش از پیام‌رسان مورد علاقه خود استفاده کنید.',
+  contactSubtitle: 'برای پشتیبانی سریع و تایید سفارش از پیام‌رسان مورد نظر خود استفاده کنید.',
+  paymentKicker: 'روش‌های پرداخت',
+  paymentTitle: 'روش‌های آسان پرداخت برای سفارش UC',
+  paymentSubtitle: 'بعد از انتخاب پکیج، پرداخت را از یکی از روش‌های زیر تایید کنید.',
+  paymentMethods: {
+    momo: 'MTN MoMo',
+    momoText: 'گزینه سریع پرداخت موبایلی.',
+    hesab: 'Hesab Pay',
+    hesabText: 'پرداخت ساده از حساب به حساب.',
+    hawala: 'حواله',
+    hawalaText: 'برای انتقال مستقیم قابل استفاده است.'
+  },
   faqKicker: 'FAQ مربوط UC',
   faqTitle: 'سوالات رایج درباره تراکنش‌های PUBG UC',
-  faqSubtitle: 'پاسخ‌های کوتاه به رایج‌ترین سوالات درباره پکیج و خرید.',
+  faqSubtitle: 'پاسخ‌های کوتاه برای سوالات رایج پکیج و پرداخت.',
   faqItems: {
-    one: { q: 'چگونه یک پکیج UC سفارش دهم؟', a: 'پکیج مورد نظر را انتخاب کنید و از طریق واتساپ یا تلگرام برای تایید تراکنش تماس بگیرید.' },
-    two: { q: 'آیا بعضی پکیج‌ها تخفیف دارند؟', a: 'بله. بعضی پکیج‌ها می‌توانند تخفیف داشته باشند که مستقیم روی کارت‌ها نمایش داده می‌شود.' },
-    three: { q: 'اگر قبل از خرید کمک بخواهم چه کنم؟', a: 'از دکمه‌های تماس سریع برای پرسیدن قیمت، موجودی و مراحل خرید استفاده کنید.' }
+    one: { q: 'چگونه یک پکیج UC سفارش بدهم؟', a: 'پکیج را انتخاب کنید و از طریق واتساپ یا تلگرام برای تایید سفارش تماس بگیرید.' },
+    two: { q: 'چه روش‌های پرداخت پذیرفته می‌شود؟', a: 'در حال حاضر MTN MoMo، Hesab Pay و حواله پذیرفته می‌شود.' },
+    three: { q: 'قبل از پرداخت چه کاری باید انجام دهم؟', a: 'قبل از پرداخت، پکیج، گیم آی‌دی و جزئیات پرداخت را با ادمین تایید کنید.' }
   },
   noteKicker: 'یادداشت / سلب مسئولیت',
   noteTitle: 'لطفاً قبل از تکمیل تراکنش جزئیات پکیج را تایید کنید',
-  noteText1: 'قیمت‌های این صفحه نمونه هستند و هر زمان قابل به‌روزرسانی می‌باشند.',
-  noteText2: 'موجودی نهایی، زمان تحویل و مراحل پرداخت باید همیشه مستقیم با فروشنده یا مالک سایت تایید شود.',
-  noteText3: 'این بخش را برای اعتمادسازی، شفافیت قیمت و یادداشت‌های آینده نگه دارید.'
+  noteText1: 'این قیمت‌های UC برای شارژ از طریق گیم آی‌دی ارائه شده و با تغییر نرخ بازار قابل به‌روزرسانی است.',
+  noteText2: 'پکیج انتخاب‌شده، روش پرداخت و جزئیات گیم آی‌دی را پیش از ارسال پول تایید کنید.',
+  noteText3: 'برای خدمات سریع‌تر، پس از انتخاب پکیج مستقیماً از طریق واتساپ یا تلگرام با ادمین تماس بگیرید.'
 };
 
 translations.ps.ucPage = {
   kicker: 'د PUBG UC وړاندیزونه',
-  title: 'د PUBG UC چټک پیکیجونه د روښانه بیې او مستقیم ملاتړ سره.',
-  subtitle: 'خپل مطلوب پیکیج وټاکئ، بیې پرتله کړئ، او د چټک معاملې لپاره له WhatsApp یا Telegram سره اړیکه ونیسئ.',
-  heroPoint1: 'د پېر او تایید لپاره چټک ځواب',
-  heroPoint2: 'روښانه پیکیجونه د ښکاره تخفیفونو سره',
+  title: 'د ګیم ID له لارې د PUBG UC ټاپ اپ د تازه افغانی بیو سره.',
+  subtitle: 'د UC پیکیج وټاکئ، د پیسو لاره تایید کړئ، او د چټک امر لپاره له موږ سره اړیکه ونیسئ.',
+  heroPoint1: 'مستقیم ټاپ اپ د ګیم ID له لارې',
+  heroPoint2: 'تازه افغانی بیې',
   heroPoint3: 'مستقیم WhatsApp او Telegram اړیکې',
   packagesKicker: 'UC پیکیجونه',
-  packagesTitle: 'د خپل راتلونکي اپګریډ لپاره مناسب UC پیکیج وټاکئ',
-  packagesSubtitle: 'ښکلي قیمت کارتونه چې په موبایل او ډیسټاپ کې چټک پرتله کېږي.',
-  discountLabel: 'تخفیف',
-  cardNote: 'چټک تماس او فوري د امر تایید.',
+  packagesTitle: 'د ګیم ID له لارې د نورمال UC بیې',
+  packagesSubtitle: 'د ګیم ID له لارې د PUBG UC مستقیم ټاپ اپ لپاره تازه افغانی نرخونه.',
+  discountLabel: 'آفر',
+  cardNote: 'مستقیم ټاپ اپ د ګیم ID له لارې د چټک تایید سره.',
   trustKicker: 'ولې له موږ واخلئ',
-  trustTitle: 'د چټک ملاتړ او پاکې پیرود تجربې لپاره جوړ شوی',
-  trustSubtitle: 'دا برخه د خدمت طرز او د باور نښې ښيي چې وروسته یې نور هم پراخولی شئ.',
+  trustTitle: 'روښانه بیې، مستقیم تماس، او چټک تایید',
+  trustSubtitle: 'موږ په اسانه امر، باوري اړیکه، او روښانه افغانی بیو تمرکز لرو.',
   trustItems: {
-    one: { title: 'چټک ځواب', text: 'د UC پیکیجونو لپاره چټک تایید او مستقیمه اړیکه.' },
-    two: { title: 'روښانه بیې', text: 'ساده کارتونه د تخفیف، بیې او څرګندو بټنونو سره.' },
-    three: { title: 'مستقیم ملاتړ', text: 'پېرودونکي کولی شي سمدستي د اشنا پیغام رسولو لارو له لارې اړیکه ونیسي.' }
+    one: { title: 'چټک ځواب', text: 'د پیکیج تایید او امر مرستې لپاره چټک ځواب.' },
+    two: { title: 'ریښتینې د بیو لېست', text: 'د UC پیکیجونه د افغانی بیو سره په روښانه ډول ښودل کېږي.' },
+    three: { title: 'اسانه پیسې', text: 'څو د پیسو لارې معامله د پېرودونکو لپاره اسانه کوي.' }
   },
   contactKicker: 'چټک تماس',
   contactTitle: 'د پیکیج په ټاکلو کې مرسته غواړئ که اوس پېر ته چمتو یاست؟',
   contactSubtitle: 'د چټک ملاتړ او د امر تایید لپاره له خپلې خوښې پیغام رسونې لارې کار واخلئ.',
+  paymentKicker: 'د پیسو لارې',
+  paymentTitle: 'د UC امرونو لپاره اسانه د پیسو لارې',
+  paymentSubtitle: 'د پیکیج له ټاکلو وروسته، د لاندې لارو له یوې سره پیسې تایید کړئ.',
+  paymentMethods: {
+    momo: 'MTN MoMo',
+    momoText: 'د موبایل چټکه د پیسو لاره.',
+    hesab: 'Hesab Pay',
+    hesabText: 'له حساب څخه حساب ته ساده پیسې.',
+    hawala: 'حواله',
+    hawalaText: 'د مستقیم انتقال لپاره شته.'
+  },
   faqKicker: 'د UC FAQ',
   faqTitle: 'د PUBG UC معاملو په اړه عامې پوښتنې',
-  faqSubtitle: 'د پیکیجونو او اړیکو په اړه لنډ ځوابونه.',
+  faqSubtitle: 'د پیکیجونو او پیسو په اړه لنډ ځوابونه.',
   faqItems: {
-    one: { q: 'زه څنګه د UC پیکیج امر وکړم؟', a: 'خپل پیکیج وټاکئ او د معاملې د تایید لپاره د WhatsApp یا Telegram له لارې اړیکه ونیسئ.' },
-    two: { q: 'ایا په ځینو پیکیجونو تخفیف شته؟', a: 'هو. ځینې پیکیجونه ترویجي تخفیفونه لري چې په قیمت کارتونو کې ښکاري.' },
-    three: { q: 'که د پېر مخکې مرسته وغواړم څه وکړم؟', a: 'د چټک تماس بټنونه وکاروئ او د بیې، موجودیت او د معاملې د مرحلو په اړه پوښتنه وکړئ.' }
+    one: { q: 'زه څنګه د UC پیکیج امر وکړم؟', a: 'پیکیج وټاکئ او د امر د تایید لپاره د WhatsApp یا Telegram له لارې اړیکه ونیسئ.' },
+    two: { q: 'کومې د پیسو لارې منل کېږي؟', a: 'اوس مهال MTN MoMo، Hesab Pay، او Hawala منل کېږي.' },
+    three: { q: 'له پیسو لېږلو مخکې څه باید وکړم؟', a: 'له پیسو مخکې د پیکیج، ګیم ID، او د پیسو جزییات له اډمین سره تایید کړئ.' }
   },
-  noteKicker: 'یادښت / خبرتیا',
+  noteKicker: 'یادونه / خبرتیا',
   noteTitle: 'مهرباني وکړئ د معاملې له بشپړولو مخکې د پیکیج جزییات تایید کړئ',
-  noteText1: 'په دې پاڼه کې بیې د فرنټ‌اینډ نمونې دي او هر وخت بدلېدای شي.',
-  noteText2: 'وروستی موجودیت، د سپارلو وخت او د تادیې مرحلې باید تل له پلورونکي یا د وېبپاڼې له مالک سره تایید شي.',
-  noteText3: 'دا برخه د باور، د بیې روڼتیا او راتلونکو پالیسۍ یادښتونو لپاره وساتئ.'
+  noteText1: 'دا د UC بیې د ګیم ID له لارې ټاپ اپ لپاره دي او د بازار د نرخ له بدلون سره تازه کېدای شي.',
+  noteText2: 'د پیسو له لېږلو مخکې خپل پیکیج، د پیسو لاره، او د ګیم ID جزییات تایید کړئ.',
+  noteText3: 'د چټک خدمت لپاره، د پیکیج له ټاکلو وروسته مستقیماً د WhatsApp یا Telegram له لارې له اډمین سره اړیکه ونیسئ.'
 };
 
 translations.en.forms.sell = {
@@ -1059,4 +1092,5 @@ translations.ps.termsPage = {
   fraudTitle: 'د معاملو پر مهال احتیاط وکړئ',
   fraudText: 'پېرودونکي او پلورونکي باید د پیسو، د اکاونټ لاسرسي، یا حساس معلوماتو له لېږدولو مخکې هویت او شرایط تایید کړي او په احتیاط عمل وکړي.'
 };
+
 
