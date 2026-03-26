@@ -27,8 +27,8 @@
       item3: { title: 'Fast Contact Options', text: 'Instant action buttons make it easy to contact the owner about buying or selling.' },
       item4: { title: 'Multilingual Ready', text: 'English, Dari, and Pashto support help more users navigate the marketplace comfortably.' }
     },
-    offers: { kicker: 'Latest Offers', title: 'Fresh accounts and deals in the marketplace', subtitle: 'These sample listings show how premium account cards will appear on the homepage.', viewAll: 'View All Listings', button: 'Buy Now' },
-    seller: { kicker: 'Seller CTA', title: 'Want to sell your account?', subtitle: 'Submit your game account details and let buyers contact you through a clean, trusted marketplace presentation.', button: 'Submit Your Account' },
+    offers: { kicker: 'Latest Offers', title: 'Fresh PUBG accounts and premium deals', subtitle: 'Explore current PUBG offers from the marketplace with premium visuals, clear pricing, and direct contact options.', viewAll: 'View All Listings', button: 'Buy Now' },
+    seller: { kicker: 'Seller CTA', title: 'Want to sell your account?', subtitle: 'Share your account through WhatsApp, Telegram, or direct contact and reach serious PUBG buyers faster.', button: 'Contact to Sell' },
     faq: {
       kicker: 'FAQ Preview', title: 'Common questions from buyers and sellers', subtitle: 'A quick preview of the most important questions before exploring the full FAQ page.', button: 'View Full FAQ',
       items: {
@@ -43,9 +43,9 @@
       copyright: '© 2026 Shaheen Gucci Online Game Center. All rights reserved.'
     },
     latestOffers: [
-      { category: 'PUBG Account', title: 'Conqueror PUBG ID with rare skins', meta: 'Level 82 • Middle East Region', price: '$240', rank: 'C1', tags: ['Mythic Set', 'Upgrade Gun', 'Linked Ready'] },
-      { category: 'Clash of Clans', title: 'TH15 max heroes and strong defense', meta: 'Town Hall 15 • Global', price: '$180', rank: 'TH15', tags: ['Max Heroes', 'Strong Base', 'Rare Scenery'] },
-      { category: 'Other Game', title: 'Elite mobile account with premium bundle', meta: 'High Tier • Asia Server', price: '$95', rank: 'VIP', tags: ['Premium Bundle', 'Ready to Play', 'Fast Transfer'] }
+      { category: 'PUBG Account', title: 'R2743 New Conqueror Mythic Fashion Account', meta: 'Level 84 ? Global Region', price: '13,500 AFN', rank: 'R2743', tags: ['153/300 Mythic Fashion', '3x Mythic Lobby', '44x Gunlab'] },
+      { category: 'PUBG Account', title: 'Ac H S no 000027 Ultimate X-Suit Account', meta: 'Level 83 ? Global Region', price: '50,000 AFN', rank: '000027', tags: ['Total Mythic 222', '5 Total X-Suit', '77 Gunlab'] },
+      { category: 'PUBG Account', title: '96 Collection Maxed-Out Premium PUBG Account', meta: '96 Collection ? Global Region', price: '4450K PKR / 15350$ (USDT)', rank: '96X', tags: ['13x X-Suit', '167x Gunlab', '40x Sports Cars'] }
     ]
   },
   fa: {
@@ -89,9 +89,9 @@
       copyright: '© ۲۰۲۶ شاهین گوچی آنلاین گیم سنتر. تمامی حقوق محفوظ است.'
     },
     latestOffers: [
-      { category: 'اکانت PUBG', title: 'آی‌دی کانکرر پابجی با اسکین‌های نادر', meta: 'لول ۸۲ • ریجن خاورمیانه', price: '$240', rank: 'C1', tags: ['ست میتیک', 'تفنگ آپگرید', 'آماده انتقال'] },
-      { category: 'کلش آف کلنز', title: 'تاون هال ۱۵ با هیروهای مکس و دفاع قوی', meta: 'تاون هال ۱۵ • جهانی', price: '$180', rank: 'TH15', tags: ['هیرو مکس', 'بیس قوی', 'منظره نادر'] },
-      { category: 'بازی دیگر', title: 'اکانت حرفه‌ای موبایل با باندل پریمیوم', meta: 'سطح بالا • سرور آسیا', price: '$95', rank: 'VIP', tags: ['باندل پریمیوم', 'آماده بازی', 'انتقال سریع'] }
+      { category: '????? PUBG', title: '????? R2743 ?????? ?? ??? ?????', meta: '??? ?? ? ???? ?????', price: '13,500 AFN', rank: 'R2743', tags: ['153/300 ??? ?????', '3 ???? ?????', '44 ?????'] },
+      { category: '????? PUBG', title: '????? 000027 ?? X-Suit ????', meta: '??? ?? ? ???? ?????', price: '50,000 AFN', rank: '000027', tags: ['222 ?????', '5 ????????', '77 ?????'] },
+      { category: '????? PUBG', title: '????? ????? ??????? ?? ?????? 96', meta: '?????? 96 ? ???? ?????', price: '4450K PKR / 15350$ (USDT)', rank: '96X', tags: ['13 ????????', '167 ?????', '40 ???? ?????'] }
     ]
   },
   ps: {
@@ -135,9 +135,9 @@
       copyright: '© ۲۰۲۶ شاهین ګوچي آنلاین ګیم سنټر. ټول حقوق خوندي دي.'
     },
     latestOffers: [
-      { category: 'د PUBG اکاونټ', title: 'د نادرو سکنونو سره Conqueror PUBG ID', meta: 'لېول ۸۲ • منځنی ختیځ', price: '$240', rank: 'C1', tags: ['Mythic Set', 'Upgrade Gun', 'Transfer Ready'] },
-      { category: 'Clash of Clans', title: 'TH15 د مکس هیرو او پیاوړي دفاع سره', meta: 'Town Hall 15 • نړیوال', price: '$180', rank: 'TH15', tags: ['Max Heroes', 'Strong Base', 'Rare Scenery'] },
-      { category: 'بله لوبه', title: 'ایلیټ موبایل اکاونټ د پریمیوم بنډل سره', meta: 'لوړه کچه • اسیا سرور', price: '$95', rank: 'VIP', tags: ['Premium Bundle', 'Ready to Play', 'Fast Transfer'] }
+      { category: '? PUBG ??????', title: '? R2743 ?????? ????? ???? ??????', meta: '???? 84 ? ?????? ????', price: '13,500 AFN', rank: 'R2743', tags: ['153/300 ????? ????', '3 ????? ????', '44 ?????'] },
+      { category: '? PUBG ??????', title: '? 000027 ?????? X-Suit ??????', meta: '???? 83 ? ?????? ????', price: '50,000 AFN', rank: '000027', tags: ['222 ?????', '5 ????????', '77 ?????'] },
+      { category: '? PUBG ??????', title: '? 96 ?????? ??????? PUBG ??????', meta: '96 ?????? ? ?????? ????', price: '4450K PKR / 15350$ (USDT)', rank: '96X', tags: ['13 ????????', '167 ?????', '40 ????? ????'] }
     ]
   }
 };
@@ -1092,6 +1092,7 @@ translations.ps.termsPage = {
   fraudTitle: 'د معاملو پر مهال احتیاط وکړئ',
   fraudText: 'پېرودونکي او پلورونکي باید د پیسو، د اکاونټ لاسرسي، یا حساس معلوماتو له لېږدولو مخکې هویت او شرایط تایید کړي او په احتیاط عمل وکړي.'
 };
+
 
 
 
