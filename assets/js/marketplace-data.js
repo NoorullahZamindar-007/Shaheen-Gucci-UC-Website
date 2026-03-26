@@ -11,7 +11,8 @@
     status: 'available',
     statusKey: 'available',
     listedAt: '2026-03-25',
-    imageClass: 'listing-pubg'
+    imageClass: 'listing-pubg',
+    imagePath: '../assets/images/downloads/pubg 1.avif'
   },
   {
     id: 2,
@@ -81,7 +82,8 @@
     status: 'reserved',
     statusKey: 'reserved',
     listedAt: '2026-03-18',
-    imageClass: 'listing-pubg'
+    imageClass: 'listing-pubg',
+    imagePath: '../assets/images/downloads/pubg 2.png'
   },
   {
     id: 7,
@@ -151,7 +153,8 @@
     status: 'available',
     statusKey: 'available',
     listedAt: '2026-03-23',
-    imageClass: 'listing-pubg'
+    imageClass: 'listing-pubg',
+    imagePath: '../assets/images/downloads/pubg 3.jpg'
   },
   {
     id: 12,
@@ -180,7 +183,8 @@
     status: 'available',
     statusKey: 'available',
     listedAt: '2026-03-26',
-    imageClass: 'listing-pubg'
+    imageClass: 'listing-pubg',
+    imagePath: '../assets/images/downloads/pubg 4.png'
   }
 ,
   {
@@ -196,7 +200,8 @@
     status: 'hot',
     statusKey: 'hot',
     listedAt: '2026-03-26',
-    imageClass: 'listing-pubg'
+    imageClass: 'listing-pubg',
+    imagePath: '../assets/images/downloads/pubg 5.jpg'
   }
 ,
   {
@@ -213,7 +218,8 @@
     status: 'hot',
     statusKey: 'hot',
     listedAt: '2026-03-26',
-    imageClass: 'listing-pubg'
+    imageClass: 'listing-pubg',
+    imagePath: '../assets/images/downloads/pubg 6.jpeg'
   }
 ,
   {
@@ -230,7 +236,8 @@
     statusKey: 'available',
     listedAt: '2026-03-26',
     imageClass: 'listing-pubg',
-    imagePath: '../assets/images/downloads/pubg 1.avif'
+    imagePath: '../assets/images/downloads/pubg 7.webp'
   }
 ];
+
 
