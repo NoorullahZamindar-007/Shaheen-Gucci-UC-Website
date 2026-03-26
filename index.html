@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shaheen Gucci Online Game Center premium gaming marketplace homepage.">
+  <title>Shaheen Gucci Online Game Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Orbitron', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+            arabic: ['Noto Sans Arabic', 'sans-serif']
+          },
+          colors: {
+            sg: {
+              bg: '#07111f',
+              panel: '#0d1728',
+              card: '#132238',
+              cyan: '#22d3ee',
+              blue: '#3b82f6',
+              gold: '#f59e0b',
+              text: '#f8fafc',
+              muted: '#94a3b8'
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body class="bg-sg-bg text-sg-text font-body">
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg nav-glass">
+      <div class="container">
+        <a class="navbar-brand brand-mark" href="index.html">
+          <span class="brand-icon"><i class="bi bi-controller"></i></span>
+          <span class="brand-text" data-i18n="brandName">Shaheen Gucci Online Game Center</span>
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="site-nav-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link active" href="index.html" data-i18n="nav.home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/marketplace.html" data-i18n="nav.marketplace">Marketplace</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/pubg-uc-prices.html" data-i18n="nav.ucPrices">PUBG UC Prices</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/sell-your-account.html" data-i18n="nav.sell">Sell Your Account</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/contact.html" data-i18n="nav.contact">Contact</a></li>
+            <li class="nav-item dropdown nav-more-dropdown"><button class="nav-link dropdown-toggle" type="button" aria-expanded="false" data-i18n="nav.more">More</button><ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end nav-more-menu"><li><a class="dropdown-item" href="pages/about.html" data-i18n="nav.about">About Us</a></li><li><a class="dropdown-item" href="pages/faq.html" data-i18n="nav.faq">FAQ</a></li><li><a class="dropdown-item" href="pages/terms.html" data-i18n="nav.terms">Terms / Disclaimer</a></li></ul></li>
+            <li class="nav-item dropdown">
+              <button class="btn lang-toggle dropdown-toggle" type="button" aria-expanded="false">
+                <i class="bi bi-globe2"></i>
+                <span id="currentLanguageLabel">English</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end language-menu">
+                <li><button class="dropdown-item language-option active" data-lang="en">English</button></li>
+                <li><button class="dropdown-item language-option" data-lang="fa">دری</button></li>
+                <li><button class="dropdown-item language-option" data-lang="ps">پښتو</button></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container position-relative">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="eyebrow-pill" data-i18n="hero.badge">Premium Gaming Marketplace</div>
+            <h1 class="hero-title" data-i18n="hero.title">Buy and sell powerful game accounts with confidence.</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Explore PUBG accounts, Clash of Clans profiles, PUBG UC deals, and more in one modern marketplace built for serious gamers.</p>
+            <div class="hero-actions d-flex flex-wrap gap-3">
+              <a href="pages/marketplace.html" class="btn btn-primary btn-cta"><i class="bi bi-bag-check"></i> <span data-i18n="hero.primaryCta">Browse Marketplace</span></a>
+              <a href="pages/sell-your-account.html" class="btn btn-outline-light btn-cta-secondary"><i class="bi bi-upload"></i> <span data-i18n="hero.secondaryCta">Sell Your ID</span></a>
+            </div>
+            <div class="hero-stats row g-3 mt-2">
+              <div class="col-6 col-md-4"><div class="stat-card"><div class="stat-number">200+</div><div class="stat-label" data-i18n="hero.stats.accounts">Sample Listings</div></div></div>
+              <div class="col-6 col-md-4"><div class="stat-card"><div class="stat-number">24/7</div><div class="stat-label" data-i18n="hero.stats.support">Fast Response</div></div></div>
+              <div class="col-6 col-md-4"><div class="stat-card"><div class="stat-number">100%</div><div class="stat-label" data-i18n="hero.stats.multiLang">3-Language Ready</div></div></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-feature-panel">
+              <div class="panel-chip"><i class="bi bi-shield-check"></i><span data-i18n="hero.panelBadge">Trusted Listings</span></div>
+              <h2 class="panel-title" data-i18n="hero.panelTitle">Professional storefront for gamers who buy smart and sell fast.</h2>
+              <div class="hero-mini-grid">
+                <div class="mini-card"><i class="bi bi-trophy"></i><span data-i18n="hero.panelItemOne">Featured premium accounts</span></div>
+                <div class="mini-card"><i class="bi bi-lightning-charge"></i><span data-i18n="hero.panelItemTwo">Quick contact via WhatsApp or Telegram</span></div>
+                <div class="mini-card"><i class="bi bi-currency-dollar"></i><span data-i18n="hero.panelItemThree">Clear offer pricing and package display</span></div>
+                <div class="mini-card"><i class="bi bi-translate"></i><span data-i18n="hero.panelItemFour">English, Dari, and Pashto support</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space">
+      <div class="container">
+        <div class="section-heading text-center mx-auto">
+          <span class="section-kicker" data-i18n="categories.kicker">Featured Categories</span>
+          <h2 data-i18n="categories.title">Choose your next gaming upgrade</h2>
+          <p data-i18n="categories.subtitle">Explore top account categories and quick access to our most requested offers.</p>
+        </div>
+        <div class="row g-4 mt-2">
+          <div class="col-sm-6 col-xl-3"><a href="pages/marketplace.html" class="category-card"><div class="category-icon"><i class="bi bi-crosshair"></i></div><h3 data-i18n="categories.pubg.title">PUBG Accounts</h3><p data-i18n="categories.pubg.text">High-level PUBG IDs, premium skins, upgraded ranks, and rare collections.</p></a></div>
+          <div class="col-sm-6 col-xl-3"><a href="pages/marketplace.html" class="category-card"><div class="category-icon"><i class="bi bi-shield-shaded"></i></div><h3 data-i18n="categories.coc.title">Clash of Clans Accounts</h3><p data-i18n="categories.coc.text">Strong villages, upgraded heroes, rare troops, and ready-to-play bases.</p></a></div>
+          <div class="col-sm-6 col-xl-3"><a href="pages/marketplace.html" class="category-card"><div class="category-icon"><i class="bi bi-joystick"></i></div><h3 data-i18n="categories.other.title">Other Games</h3><p data-i18n="categories.other.text">Discover listings from other popular mobile and online games.</p></a></div>
+          <div class="col-sm-6 col-xl-3"><a href="pages/pubg-uc-prices.html" class="category-card"><div class="category-icon"><i class="bi bi-gem"></i></div><h3 data-i18n="categories.uc.title">PUBG UC Offers</h3><p data-i18n="categories.uc.text">Review package prices, special offers, and direct purchase contact options.</p></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-alt">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <div class="section-heading text-start mb-0">
+              <span class="section-kicker" data-i18n="why.kicker">Why Choose Us</span>
+              <h2 data-i18n="why.title">Built for trust, speed, and a premium buyer experience</h2>
+              <p data-i18n="why.subtitle">We designed this marketplace to make browsing, comparing, and contacting sellers simple across desktop and mobile.</p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-4">
+              <div class="col-md-6"><div class="feature-card"><i class="bi bi-patch-check"></i><h3 data-i18n="why.item1.title">Clean Verified Style</h3><p data-i18n="why.item1.text">Professional presentation for listings with clear details, pricing, and visible key features.</p></div></div>
+              <div class="col-md-6"><div class="feature-card"><i class="bi bi-phone"></i><h3 data-i18n="why.item2.title">Mobile-First Design</h3><p data-i18n="why.item2.text">The layout works smoothly on phones, tablets, and desktops for quick browsing anywhere.</p></div></div>
+              <div class="col-md-6"><div class="feature-card"><i class="bi bi-chat-dots"></i><h3 data-i18n="why.item3.title">Fast Contact Options</h3><p data-i18n="why.item3.text">Instant action buttons make it easy to contact the owner about buying or selling.</p></div></div>
+              <div class="col-md-6"><div class="feature-card"><i class="bi bi-translate"></i><h3 data-i18n="why.item4.title">Multilingual Ready</h3><p data-i18n="why.item4.text">English, Dari, and Pashto support help more users navigate the marketplace comfortably.</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between gap-3 mb-4">
+          <div class="section-heading text-start mb-0">
+            <span class="section-kicker" data-i18n="offers.kicker">Latest Offers</span>
+            <h2 data-i18n="offers.title">Fresh accounts and deals in the marketplace</h2>
+            <p data-i18n="offers.subtitle">These sample listings show how premium account cards will appear on the homepage.</p>
+          </div>
+          <a href="pages/marketplace.html" class="btn btn-outline-info browse-link"><span data-i18n="offers.viewAll">View All Listings</span> <i class="bi bi-arrow-right-short"></i></a>
+        </div>
+        <div class="row g-4" id="latestOffers"></div>
+      </div>
+    </section>
+
+    <section class="section-space">
+      <div class="container">
+        <div class="seller-cta">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+              <div class="section-heading text-start mb-0">
+                <span class="section-kicker" data-i18n="seller.kicker">Seller CTA</span>
+                <h2 data-i18n="seller.title">Want to sell your account?</h2>
+                <p data-i18n="seller.subtitle">Submit your game account details and let buyers contact you through a clean, trusted marketplace presentation.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="pages/sell-your-account.html" class="btn btn-warning btn-sell"><i class="bi bi-send-check"></i> <span data-i18n="seller.button">Submit Your Account</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-alt">
+      <div class="container">
+        <div class="row align-items-start g-5">
+          <div class="col-lg-5">
+            <div class="section-heading text-start mb-0">
+              <span class="section-kicker" data-i18n="faq.kicker">FAQ Preview</span>
+              <h2 data-i18n="faq.title">Common questions from buyers and sellers</h2>
+              <p data-i18n="faq.subtitle">A quick preview of the most important questions before exploring the full FAQ page.</p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="accordion faq-accordion" id="faqPreview">
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" data-i18n="faq.items.one.q">How do I buy an account?</button></h3>
+                <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqPreview"><div class="accordion-body" data-i18n="faq.items.one.a">Browse listings, choose an account, and contact the seller or website owner through the provided contact options.</div></div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" data-i18n="faq.items.two.q">Can I submit my own game account for sale?</button></h3>
+                <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqPreview"><div class="accordion-body" data-i18n="faq.items.two.a">Yes. Use the seller submission page to send account details, asking price, and contact information.</div></div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" data-i18n="faq.items.three.q">Are PUBG UC prices shown clearly?</button></h3>
+                <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqPreview"><div class="accordion-body" data-i18n="faq.items.three.a">Yes. The UC page is designed to display package pricing, offer notes, and quick contact actions in a simple format.</div></div>
+              </div>
+            </div>
+            <div class="mt-4"><a href="pages/faq.html" class="btn btn-outline-light btn-cta-secondary"><span data-i18n="faq.button">View Full FAQ</span> <i class="bi bi-arrow-right"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <a class="navbar-brand brand-mark footer-brand" href="index.html">
+            <span class="brand-icon"><i class="bi bi-controller"></i></span>
+            <span class="brand-text" data-i18n="brandName">Shaheen Gucci Online Game Center</span>
+          </a>
+          <p class="footer-text mt-3" data-i18n="footer.description">Premium static marketplace design for buying and selling gaming accounts, PUBG UC offers, and quick contact-based transactions.</p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-title" data-i18n="footer.links">Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="pages/marketplace.html" data-i18n="nav.marketplace">Marketplace</a></li>
+            <li><a href="pages/pubg-uc-prices.html" data-i18n="nav.ucPrices">PUBG UC Prices</a></li>
+            <li><a href="pages/contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h3 class="footer-title" data-i18n="footer.support">Support</h3>
+          <ul class="footer-links">
+            <li><a href="pages/about.html" data-i18n="nav.about">About Us</a></li>
+            <li><a href="pages/faq.html" data-i18n="nav.faq">FAQ</a></li>
+            <li><a href="pages/terms.html" data-i18n="nav.terms">Terms / Disclaimer</a></li>
+            <li><a href="pages/sell-your-account.html" data-i18n="nav.sell">Sell Your Account</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="footer-title" data-i18n="footer.contact">Quick Contact</h3>
+          <div class="footer-contact-buttons">
+            <a href="#" class="quick-contact"><i class="bi bi-whatsapp"></i><span data-i18n="footer.whatsapp">WhatsApp</span></a>
+            <a href="#" class="quick-contact"><i class="bi bi-telegram"></i><span data-i18n="footer.telegram">Telegram</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom"><p data-i18n="footer.copyright">© 2026 Shaheen Gucci Online Game Center. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <a href="pages/contact.html" class="floating-contact" aria-label="Contact us"><i class="bi bi-chat-heart-fill"></i><span data-i18n="floatingContact">Contact Us</span></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
