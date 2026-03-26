@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">PUBG helmet illustration</title>
+  <desc id="desc">Stylized combat helmet over a neon battleground background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1423"/>
+      <stop offset="100%" stop-color="#132238"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" rx="28" fill="url(#bg)"/>
+  <rect width="600" height="400" rx="28" fill="url(#glow)"/>
+  <path d="M135 300 C150 205 220 135 300 135 C380 135 450 205 465 300" fill="#d8dde7"/>
+  <path d="M175 240 C205 220 247 210 300 210 C353 210 395 220 425 240" fill="none" stroke="#0f172a" stroke-width="24" stroke-linecap="round"/>
+  <rect x="205" y="255" width="190" height="28" rx="14" fill="#0f172a"/>
+  <circle cx="235" cy="225" r="14" fill="#0f172a"/>
+  <circle cx="365" cy="225" r="14" fill="#0f172a"/>
+  <path d="M235 300 C250 320 270 332 300 336 C330 332 350 320 365 300" fill="none" stroke="#0f172a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M0 330 C90 300 180 340 270 315 C360 290 450 325 600 286 L600 400 L0 400 Z" fill="#0b1629" opacity="0.95"/>
+</svg>

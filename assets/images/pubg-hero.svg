@@ -1,0 +1,50 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">PUBG themed battleground illustration</title>
+  <desc id="desc">Stylized battleground scene with helmet, supply crate, and blue energy zone.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091221"/>
+      <stop offset="50%" stop-color="#10253e"/>
+      <stop offset="100%" stop-color="#050b16"/>
+    </linearGradient>
+    <radialGradient id="zone" cx="70%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.75"/>
+      <stop offset="45%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#zone)"/>
+  <path d="M0 640 C180 570 330 610 480 580 C660 540 780 610 930 575 C1040 548 1120 560 1200 520 L1200 800 L0 800 Z" fill="#0b1629"/>
+  <path d="M0 680 C220 620 350 690 540 650 C720 615 850 675 1030 640 C1105 625 1165 620 1200 612 L1200 800 L0 800 Z" fill="#132238" opacity="0.95"/>
+  <g transform="translate(685 165)">
+    <circle cx="130" cy="145" r="128" fill="#0f2238" stroke="#1d4ed8" stroke-width="8" opacity="0.9"/>
+    <circle cx="130" cy="145" r="82" fill="none" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="10"/>
+    <path d="M130 27 V75 M130 215 V263 M12 145 H60 M200 145 H248" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(340 182)">
+    <path d="M180 106 C180 57 139 20 88 20 C39 20 0 58 0 106 C0 137 18 164 46 180 L34 234 C31 246 42 256 53 251 L93 235 C112 239 131 237 148 231 L179 250 C191 257 202 246 199 233 L188 182 C217 166 235 138 235 106 C235 57 196 20 148 20" fill="#d6dce6" opacity="0.9"/>
+    <path d="M28 113 C42 95 65 84 93 84 H144 C165 84 187 91 205 104" fill="none" stroke="#0f172a" stroke-width="14" stroke-linecap="round"/>
+    <rect x="58" y="155" width="120" height="22" rx="11" fill="#0f172a" opacity="0.85"/>
+    <path d="M63 178 C93 205 144 205 174 178" fill="none" stroke="#0f172a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="80" cy="119" r="10" fill="#0f172a"/>
+    <circle cx="155" cy="119" r="10" fill="#0f172a"/>
+  </g>
+  <g transform="translate(170 470)">
+    <rect x="0" y="60" width="210" height="128" rx="18" fill="#5b3b25"/>
+    <rect x="12" y="74" width="186" height="100" rx="12" fill="#7a5134"/>
+    <path d="M0 88 H210 M0 150 H210" stroke="#f59e0b" stroke-opacity="0.45" stroke-width="6"/>
+    <path d="M70 58 V190 M140 58 V190" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="6"/>
+    <rect x="85" y="98" width="40" height="52" rx="8" fill="url(#gold)"/>
+  </g>
+  <g transform="translate(865 455)">
+    <rect x="0" y="0" width="210" height="98" rx="16" fill="#1e293b" opacity="0.9"/>
+    <path d="M20 20 L190 20 L165 78 L45 78 Z" fill="#0f172a"/>
+    <path d="M58 20 L82 78 M128 20 L104 78" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="4"/>
+    <circle cx="105" cy="50" r="12" fill="#22d3ee" opacity="0.7"/>
+  </g>
+</svg>

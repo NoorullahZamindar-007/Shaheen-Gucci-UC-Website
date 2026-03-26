@@ -1,0 +1,24 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">PUBG supply crate illustration</title>
+  <desc id="desc">Stylized glowing supply crate with battleground smoke.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101c30"/>
+      <stop offset="100%" stop-color="#091221"/>
+    </linearGradient>
+    <linearGradient id="crate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5e3c"/>
+      <stop offset="100%" stop-color="#5b3b25"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="470" cy="90" r="120" fill="#22d3ee" opacity="0.18"/>
+  <g transform="translate(130 120)">
+    <rect x="0" y="50" width="280" height="170" rx="20" fill="url(#crate)"/>
+    <rect x="16" y="66" width="248" height="138" rx="12" fill="#7a5134"/>
+    <path d="M0 88 H280 M0 144 H280" stroke="#fbbf24" stroke-opacity="0.35" stroke-width="8"/>
+    <path d="M92 48 V222 M188 48 V222" stroke="#fbbf24" stroke-opacity="0.28" stroke-width="8"/>
+    <rect x="118" y="102" width="44" height="70" rx="10" fill="#f59e0b"/>
+  </g>
+  <path d="M70 330 C170 290 250 340 360 300 C430 274 495 290 600 255 L600 400 L0 400 Z" fill="#0b1629" opacity="0.92"/>
+</svg>
