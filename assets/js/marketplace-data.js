@@ -167,4 +167,20 @@
     listedAt: '2026-03-16',
     imageClass: 'listing-other'
   }
+  ,{
+    id: 13,
+    game: 'PUBG',
+    title: 'R2743 New Conqueror Mythic Fashion Account',
+    levelLabel: '84',
+    levelBand: 'elite',
+    region: 'Global',
+    features: ['153/300 Mythic Fashion', 'Collection Level 68', '3x Mythic Lobby', '44x Gunlab', '1x Lv.7 Max Red', '12x Lv.4/5/6 guns', 'S4 Face Open', 'S4 Hair Open', 'Inferno Rider Helmet', 'Godzilla Buddy Open'],
+    price: 13500,
+    currency: 'AFN',
+    status: 'available',
+    statusKey: 'available',
+    listedAt: '2026-03-26',
+    imageClass: 'listing-pubg'
+  }
 ];
+

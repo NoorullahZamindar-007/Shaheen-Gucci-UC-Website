@@ -39,7 +39,7 @@
     },
     footer: {
       description: 'Premium static marketplace design for buying and selling gaming accounts, PUBG UC offers, and quick contact-based transactions.',
-      links: 'Links', support: 'Support', contact: 'Quick Contact', whatsapp: 'WhatsApp', telegram: 'Telegram',
+      links: 'Links', support: 'Support', contact: 'Quick Contact', whatsapp: 'WhatsApp', telegram: 'Telegram', whatsappNumberLabel: 'WhatsApp Number',
       copyright: '© 2026 Shaheen Gucci Online Game Center. All rights reserved.'
     },
     latestOffers: [
@@ -498,8 +498,8 @@ translations.en.forms.sell = {
 };
 translations.en.sellPage = {
   kicker: 'Sell Your Account',
-  title: 'Submit your game account details and reach serious buyers faster.',
-  subtitle: 'Use this form to send your account details, pricing, and contact information so your listing can be prepared for the marketplace.',
+  title: 'Sell your account through direct contact only.',
+  subtitle: 'Join our WhatsApp group, join our Telegram group, or contact the WhatsApp number to share your account details.',
   heroPoint1: 'Simple submission flow for sellers',
   heroPoint2: 'Clear fields for better listing quality',
   heroPoint3: 'Quick admin follow-up for account review',
@@ -575,8 +575,8 @@ translations.fa.forms.sell = {
 };
 translations.fa.sellPage = {
   kicker: 'فروش اکانت',
-  title: 'جزئیات اکانت بازی خود را ثبت کنید و سریع‌تر به خریداران جدی برسید.',
-  subtitle: 'از این فرم برای ارسال جزئیات اکانت، قیمت و اطلاعات تماس استفاده کنید تا لیست شما برای مارکیت آماده شود.',
+  title: 'اکانت خود را فقط از طریق تماس مستقیم برای فروش معرفی کنید.',
+  subtitle: 'برای ارسال جزئیات اکانت خود به گروپ واتساپ، گروپ تلگرام بپیوندید یا از طریق شماره واتساپ تماس بگیرید.',
   heroPoint1: 'روند ساده ثبت برای فروشنده',
   heroPoint2: 'فیلدهای واضح برای کیفیت بهتر لیست',
   heroPoint3: 'پیگیری سریع ادمین برای بررسی اکانت',
@@ -652,8 +652,8 @@ translations.ps.forms.sell = {
 };
 translations.ps.sellPage = {
   kicker: 'خپل اکاونټ وپلورئ',
-  title: 'د خپل لوبې اکاونټ جزییات ثبت کړئ او ژر جدي پېرودونکو ته ورسېږئ.',
-  subtitle: 'دا فورم وکاروئ ترڅو د خپل اکاونټ جزییات، بیه او د اړیکې معلومات واستوئ او ستاسې لېسټ مارکېټ ته چمتو شي.',
+  title: 'خپل اکاونټ یوازې د مستقیم تماس له لارې د پلور لپاره وړاندې کړئ.',
+  subtitle: 'د خپل اکاونټ جزییاتو د شریکولو لپاره د WhatsApp ګروپ، Telegram ګروپ سره یوځای شئ یا د WhatsApp شمیرې سره اړیکه ونیسئ.',
   heroPoint1: 'د پلورونکو لپاره ساده سپارلو بهیر',
   heroPoint2: 'د ښه لېسټ لپاره روښانه فیلډونه',
   heroPoint3: 'د اکاونټ د کتنې لپاره چټک اداري تعقیب',
@@ -1092,5 +1092,9 @@ translations.ps.termsPage = {
   fraudTitle: 'د معاملو پر مهال احتیاط وکړئ',
   fraudText: 'پېرودونکي او پلورونکي باید د پیسو، د اکاونټ لاسرسي، یا حساس معلوماتو له لېږدولو مخکې هویت او شرایط تایید کړي او په احتیاط عمل وکړي.'
 };
+
+
+
+
 
 

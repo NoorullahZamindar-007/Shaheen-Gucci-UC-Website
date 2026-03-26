@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Submit your game account for sale at Shaheen Gucci Online Game Center.">
+  <meta name="description" content="Sell your game account through direct contact at Shaheen Gucci Online Game Center.">
   <title>Sell Your Account | Shaheen Gucci Online Game Center</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,15 +81,13 @@
           <div class="col-lg-7">
             <div class="section-heading text-start mb-0">
               <span class="section-kicker" data-i18n="sellPage.kicker">Sell Your Account</span>
-              <h1 class="page-title" data-i18n="sellPage.title">Submit your game account details and reach serious buyers faster.</h1>
-              <p data-i18n="sellPage.subtitle">Use this form to send your account details, pricing, and contact information so your listing can be prepared for the marketplace.</p>
+              <h1 class="page-title" data-i18n="sellPage.title">Sell your account through direct contact only.</h1>
+              <p data-i18n="sellPage.subtitle">Join our WhatsApp group, join our Telegram group, or contact the WhatsApp number to share your account details.</p>
             </div>
           </div>
           <div class="col-lg-5">
-            <div class="sell-hero-panel">
-              <div class="mini-card"><i class="bi bi-send-check"></i><span data-i18n="sellPage.heroPoint1">Simple submission flow for sellers</span></div>
-              <div class="mini-card"><i class="bi bi-shield-check"></i><span data-i18n="sellPage.heroPoint2">Clear fields for better listing quality</span></div>
-              <div class="mini-card"><i class="bi bi-chat-square-dots"></i><span data-i18n="sellPage.heroPoint3">Quick admin follow-up for account review</span></div>
+            <div class="page-visual-card scroll-reveal">
+              <img src="../assets/images/downloads/pubg-squad.jpg" alt="PUBG style contact visual" class="page-visual-image">
             </div>
           </div>
         </div>
@@ -98,143 +96,44 @@
 
     <section class="section-space pt-4">
       <div class="container">
-        <div class="row g-4 align-items-start">
-          <div class="col-xl-8">
-            <div class="seller-form-card">
-              <div class="section-heading text-start mb-4">
-                <span class="section-kicker" data-i18n="sellPage.formKicker">Seller Form</span>
-                <h2 data-i18n="sellPage.formTitle">Tell us about your account</h2>
-                <p data-i18n="sellPage.formSubtitle">Fill in the details below. Required fields help us prepare a clearer listing for buyers.</p>
-              </div>
-
-              <div id="sellSuccessMessage" class="success-banner d-none" role="status">
-                <i class="bi bi-check-circle-fill"></i>
-                <div>
-                  <strong data-i18n="sellPage.successTitle">Submission received</strong>
-                  <p class="mb-0" data-i18n="sellPage.successText">Your account details were captured in the frontend demo. Connect this form to a backend later to store real submissions.</p>
-                </div>
-              </div>
-
-              <form id="sellAccountForm" novalidate>
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <label class="filter-label" for="fullName" data-i18n="forms.sell.fullName">Full Name</label>
-                    <input id="fullName" name="fullName" class="form-control marketplace-input" type="text" data-i18n-placeholder="forms.sell.fullNamePlaceholder" placeholder="Your full name">
-                    <div class="field-error" data-error-for="fullName"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <label class="filter-label" for="phoneContact" data-i18n="forms.sell.phone">Phone / WhatsApp / Telegram</label>
-                    <input id="phoneContact" name="phoneContact" class="form-control marketplace-input" type="text" data-i18n-placeholder="forms.sell.phonePlaceholder" placeholder="Phone number or messaging ID">
-                    <div class="field-error" data-error-for="phoneContact"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <label class="filter-label" for="email" data-i18n="forms.sell.email">Email (Optional)</label>
-                    <input id="email" name="email" class="form-control marketplace-input" type="email" data-i18n-placeholder="forms.sell.emailPlaceholder" placeholder="name@example.com">
-                    <div class="field-error" data-error-for="email"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <label class="filter-label" for="gameName" data-i18n="forms.sell.gameName">Game Name</label>
-                    <select id="gameName" name="gameName" class="form-select marketplace-select">
-                      <option value="" data-i18n="forms.sell.gameNamePlaceholder">Select a game</option>
-                      <option value="PUBG">PUBG</option>
-                      <option value="Clash of Clans">Clash of Clans</option>
-                      <option value="Free Fire">Free Fire</option>
-                      <option value="Call of Duty Mobile">Call of Duty Mobile</option>
-                      <option value="Other Games" data-i18n="forms.sell.otherGame">Other Games</option>
-                    </select>
-                    <div class="field-error" data-error-for="gameName"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <label class="filter-label" for="accountTitle" data-i18n="forms.sell.accountTitle">Account Title</label>
-                    <input id="accountTitle" name="accountTitle" class="form-control marketplace-input" type="text" data-i18n-placeholder="forms.sell.accountTitlePlaceholder" placeholder="Short title for your account">
-                    <div class="field-error" data-error-for="accountTitle"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <label class="filter-label" for="level" data-i18n="forms.sell.level">Level</label>
-                    <input id="level" name="level" class="form-control marketplace-input" type="text" data-i18n-placeholder="forms.sell.levelPlaceholder" placeholder="Example: TH15, Elite, Level 82">
-                    <div class="field-error" data-error-for="level"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <label class="filter-label" for="region" data-i18n="forms.sell.region">Region</label>
-                    <input id="region" name="region" class="form-control marketplace-input" type="text" data-i18n-placeholder="forms.sell.regionPlaceholder" placeholder="Example: Global, Middle East, Asia">
-                    <div class="field-error" data-error-for="region"></div>
-                  </div>
-                  <div class="col-md-6">
-                    <label class="filter-label" for="price" data-i18n="forms.sell.price">Price</label>
-                    <input id="price" name="price" class="form-control marketplace-input" type="number" min="0" step="0.01" data-i18n-placeholder="forms.sell.pricePlaceholder" placeholder="Enter asking price">
-                    <div class="field-error" data-error-for="price"></div>
-                  </div>
-                  <div class="col-12">
-                    <label class="filter-label" for="features" data-i18n="forms.sell.features">Account Features</label>
-                    <input id="features" name="features" class="form-control marketplace-input" type="text" data-i18n-placeholder="forms.sell.featuresPlaceholder" placeholder="Separate key features with commas">
-                    <div class="field-error" data-error-for="features"></div>
-                  </div>
-                  <div class="col-12">
-                    <label class="filter-label" for="description" data-i18n="forms.sell.description">Description</label>
-                    <textarea id="description" name="description" class="form-control marketplace-input textarea-control" rows="5" data-i18n-placeholder="forms.sell.descriptionPlaceholder" placeholder="Describe your account, skins, rank, or any special details"></textarea>
-                    <div class="field-error" data-error-for="description"></div>
-                  </div>
-                  <div class="col-12">
-                    <label class="filter-label" data-i18n="forms.sell.screenshot">Upload Screenshot Placeholder</label>
-                    <div class="upload-placeholder">
-                      <i class="bi bi-image"></i>
-                      <h3 data-i18n="sellPage.uploadTitle">Screenshot upload placeholder</h3>
-                      <p data-i18n="sellPage.uploadText">Connect a real file upload service later with Firebase Storage, Supabase Storage, or another backend.</p>
-                      <button type="button" class="btn btn-outline-light btn-cta-secondary" data-i18n="sellPage.uploadButton">Choose Screenshot Later</button>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <label class="filter-label" for="contactMethod" data-i18n="forms.sell.contactMethod">Preferred Contact Method</label>
-                    <select id="contactMethod" name="contactMethod" class="form-select marketplace-select">
-                      <option value="" data-i18n="forms.sell.contactMethodPlaceholder">Choose contact method</option>
-                      <option value="Phone" data-i18n="sellPage.contactMethods.phone">Phone</option>
-                      <option value="WhatsApp">WhatsApp</option>
-                      <option value="Telegram">Telegram</option>
-                      <option value="Email">Email</option>
-                    </select>
-                    <div class="field-error" data-error-for="contactMethod"></div>
-                  </div>
-                  <div class="col-12 d-flex flex-wrap gap-3 mt-2">
-                    <button type="submit" class="btn btn-primary btn-cta"><i class="bi bi-send"></i> <span data-i18n="forms.sell.submit">Submit Account</span></button>
-                    <button type="reset" class="btn btn-outline-light btn-cta-secondary" data-i18n="sellPage.resetButton">Reset Form</button>
-                  </div>
-                </div>
-              </form>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="info-card h-100 text-center">
+              <i class="bi bi-whatsapp text-3xl text-cyan-300"></i>
+              <h2 class="info-title mt-3" data-i18n="sellPage.whatsappGroupTitle">WhatsApp Group</h2>
+              <p data-i18n="sellPage.whatsappGroupText">Join the WhatsApp group for selling information and direct updates.</p>
+              <a href="https://chat.whatsapp.com/KBwFSKInD7fGHRDpul4bZt?mode=gi_t" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-cta mt-3">
+                <span data-i18n="sellPage.whatsappGroupButton">Join WhatsApp Group</span>
+              </a>
             </div>
           </div>
 
-          <div class="col-xl-4">
-            <div class="sidebar-stack">
-              <div class="info-card">
-                <span class="section-kicker" data-i18n="sellPage.howKicker">How Selling Works</span>
-                <h2 class="info-title" data-i18n="sellPage.howTitle">Three simple steps to submit your account</h2>
-                <div class="step-list">
-                  <div class="step-item"><span class="step-number">1</span><p data-i18n="sellPage.howItems.one">Fill in your account details with clear pricing and features.</p></div>
-                  <div class="step-item"><span class="step-number">2</span><p data-i18n="sellPage.howItems.two">Wait for review and a follow-up message from the admin.</p></div>
-                  <div class="step-item"><span class="step-number">3</span><p data-i18n="sellPage.howItems.three">Your account can then be prepared for display in the marketplace.</p></div>
-                </div>
-              </div>
-
-              <div class="info-card">
-                <span class="section-kicker" data-i18n="sellPage.safetyKicker">Safety Tips</span>
-                <h2 class="info-title" data-i18n="sellPage.safetyTitle">Protect yourself while selling</h2>
-                <ul class="safety-list">
-                  <li data-i18n="sellPage.safetyItems.one">Share only the details needed for listing first, not sensitive login credentials.</li>
-                  <li data-i18n="sellPage.safetyItems.two">Confirm the buyer process and payment steps before transferring access.</li>
-                  <li data-i18n="sellPage.safetyItems.three">Keep screenshots and account details accurate to avoid disputes.</li>
-                </ul>
-              </div>
-
-              <div class="info-card admin-cta-card">
-                <span class="section-kicker" data-i18n="sellPage.adminKicker">Admin Contact</span>
-                <h2 class="info-title" data-i18n="sellPage.adminTitle">Need help before submitting?</h2>
-                <p data-i18n="sellPage.adminText">Contact the website owner directly through WhatsApp or Telegram if you want help preparing your account details.</p>
-                <div class="uc-contact-buttons justify-content-start mt-3">
-                  <a href="https://chat.whatsapp.com/KBwFSKInD7fGHRDpul4bZt?mode=gi_t" target="_blank" rel="noopener noreferrer" class="quick-contact"><i class="bi bi-whatsapp"></i><span data-i18n="footer.whatsapp">WhatsApp</span></a>
-                  <a href="https://t.me/+cFDIewI4ig1lOWNl" target="_blank" rel="noopener noreferrer" class="quick-contact"><i class="bi bi-telegram"></i><span data-i18n="footer.telegram">Telegram</span></a>
-                </div>
-              </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="info-card h-100 text-center">
+              <i class="bi bi-telegram text-3xl text-cyan-300"></i>
+              <h2 class="info-title mt-3" data-i18n="sellPage.telegramGroupTitle">Telegram Group</h2>
+              <p data-i18n="sellPage.telegramGroupText">Join the Telegram group any time if you want to sell your account.</p>
+              <a href="https://t.me/+cFDIewI4ig1lOWNl" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-cta mt-3">
+                <span data-i18n="sellPage.telegramGroupButton">Join Telegram Group</span>
+              </a>
             </div>
+          </div>
+
+          <div class="col-lg-4 col-md-10">
+            <div class="info-card h-100 text-center">
+              <i class="bi bi-phone text-3xl text-cyan-300"></i>
+              <h2 class="info-title mt-3" data-i18n="sellPage.whatsappNumberTitle">WhatsApp Number</h2>
+              <div class="email-box mt-3">0765625581</div>
+              <p class="mt-3" data-i18n="sellPage.whatsappNumberText">Replace this with your real WhatsApp number if you want direct private contact.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="uc-contact-cta mt-5">
+          <div class="section-heading text-center mx-auto mb-0">
+            <span class="section-kicker" data-i18n="sellPage.simpleKicker">Direct Contact</span>
+            <h2 data-i18n="sellPage.simpleTitle">Only direct contact is used on this page</h2>
+            <p data-i18n="sellPage.simpleText">Use WhatsApp group, Telegram group, or WhatsApp number to send your account details.</p>
           </div>
         </div>
       </div>
@@ -275,6 +174,7 @@
             <a href="https://chat.whatsapp.com/KBwFSKInD7fGHRDpul4bZt?mode=gi_t" target="_blank" rel="noopener noreferrer" class="quick-contact"><i class="bi bi-whatsapp"></i><span data-i18n="footer.whatsapp">WhatsApp</span></a>
             <a href="https://t.me/+cFDIewI4ig1lOWNl" target="_blank" rel="noopener noreferrer" class="quick-contact"><i class="bi bi-telegram"></i><span data-i18n="footer.telegram">Telegram</span></a>
           </div>
+          <p class="footer-contact-number"><span data-i18n="footer.whatsappNumberLabel">WhatsApp Number</span>: <a href="https://wa.me/93765625581" target="_blank" rel="noopener noreferrer">0765625581</a></p>
         </div>
       </div>
       <div class="footer-bottom"><p data-i18n="footer.copyright">© 2026 Shaheen Gucci Online Game Center. All rights reserved.</p></div>
@@ -286,10 +186,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="../assets/js/translations.js"></script>
   <script src="../assets/js/main.js"></script>
-  <script src="../assets/js/sell-page.js"></script>
 </body>
 </html>
-
-
 
 
