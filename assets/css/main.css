@@ -1840,3 +1840,146 @@ textarea::placeholder {
     opacity: 0.24;
   }
 }
+.hero-section {
+  background:
+    linear-gradient(90deg, rgba(5, 11, 22, 0.82) 0%, rgba(5, 11, 22, 0.58) 42%, rgba(5, 11, 22, 0.82) 100%),
+    url('../images/downloads/pubg-hero.jpg') center/cover no-repeat;
+}
+
+.hero-section::after,
+.hero-feature-panel::after,
+.uc-hero-panel::after,
+.sell-hero-panel::after,
+.contact-hero-panel::after,
+.marketplace-hero::after,
+.uc-hero::after,
+.sell-hero::after,
+.contact-hero::after,
+.uc-card.featured::after {
+  display: none !important;
+}
+
+.hero-visual-stack {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.hero-visual-card,
+.page-visual-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: var(--shadow);
+  min-height: 260px;
+  background: rgba(10, 16, 28, 0.8);
+}
+
+.hero-visual-image,
+.page-visual-image {
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.06) contrast(1.02);
+}
+
+.hero-visual-card::after,
+.page-visual-card::after,
+.market-card-media::after,
+.offer-cover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(5, 11, 22, 0.08), rgba(5, 11, 22, 0.4));
+  pointer-events: none;
+}
+
+.offer-cover,
+.market-card-media {
+  position: relative;
+  overflow: hidden;
+}
+
+.offer-cover-image,
+.market-card-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.offer-cover > *:not(.offer-cover-image),
+.market-card-media > *:not(.market-card-photo) {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-feature-panel,
+.uc-hero-panel,
+.sell-hero-panel,
+.contact-hero-panel,
+.marketplace-hero,
+.uc-hero,
+.sell-hero,
+.contact-hero,
+.page-hero,
+.uc-contact-cta,
+.payment-panel,
+.upload-placeholder,
+.map-placeholder-box,
+.category-card.category-pubg,
+.about-games-pubg,
+.listing-pubg,
+.offer-cover {
+  background-blend-mode: normal !important;
+}
+
+.hero-feature-panel,
+.uc-hero-panel,
+.sell-hero-panel,
+.contact-hero-panel {
+  background:
+    linear-gradient(180deg, rgba(10, 16, 28, 0.64), rgba(10, 16, 28, 0.8)),
+    url('../images/downloads/pubg-squad.jpg') center/cover no-repeat;
+}
+
+.marketplace-hero,
+.uc-hero,
+.sell-hero,
+.contact-hero,
+.page-hero {
+  background:
+    linear-gradient(135deg, rgba(5, 11, 22, 0.76), rgba(16, 37, 62, 0.52)),
+    url('../images/downloads/pubg-market.jpg') center/cover no-repeat;
+}
+
+.category-card.category-pubg,
+.about-games-pubg,
+.listing-pubg {
+  background:
+    linear-gradient(180deg, rgba(10, 16, 28, 0.22), rgba(10, 16, 28, 0.68)),
+    url('../images/downloads/pubg-market.jpg') center/cover no-repeat;
+}
+
+.uc-card.featured,
+.uc-contact-cta,
+.payment-panel,
+.upload-placeholder,
+.map-placeholder-box {
+  background:
+    linear-gradient(135deg, rgba(10, 16, 28, 0.56), rgba(19, 34, 56, 0.62)),
+    url('../images/downloads/pubg-cta.jpg') center/cover no-repeat;
+}
+
+@media (max-width: 991.98px) {
+  .hero-visual-image,
+  .page-visual-image,
+  .hero-visual-card,
+  .page-visual-card {
+    min-height: 220px;
+  }
+}

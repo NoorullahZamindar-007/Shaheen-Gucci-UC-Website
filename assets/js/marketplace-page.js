@@ -84,7 +84,7 @@ function createMarketplaceCard(item) {
   return `
     <div class="col-md-6 col-xl-4 scroll-reveal">
       <article class="market-card">
-        <div class="market-card-media ${item.imageClass}">
+        <div class="market-card-media ${item.imageClass}"><img class="market-card-photo" src="../assets/images/downloads/${item.imageClass === 'listing-pubg' ? 'pubg-market.jpg' : item.imageClass === 'listing-coc' ? 'pubg-squad.jpg' : item.imageClass === 'listing-ff' ? 'pubg-action.jpg' : item.imageClass === 'listing-codm' ? 'pubg-cta.jpg' : 'pubg-hero.jpg'}" alt="${item.game} account visual">
           <span class="market-status ${item.statusKey}">${statusLabel}</span>
           <span class="market-game">${item.game}</span>
         </div>
@@ -259,3 +259,4 @@ function initializeMarketplacePage() {
 }
 
 document.addEventListener('DOMContentLoaded', initializeMarketplacePage);
+

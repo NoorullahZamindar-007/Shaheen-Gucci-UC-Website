@@ -111,7 +111,7 @@ function renderLatestOffers(language) {
   offersContainer.innerHTML = offers.map((offer) => `
     <div class="col-md-6 col-xl-4 scroll-reveal">
       <article class="offer-card">
-        <div class="offer-cover">
+        <div class="offer-cover"><img class="offer-cover-image" src="assets/images/downloads/pubg-market.jpg" alt="PUBG style marketplace visual">
           <div class="offer-badge"><i class="bi bi-stars"></i><span>${offer.category}</span></div>
           <div class="offer-rank">${offer.rank}</div>
         </div>
@@ -466,4 +466,5 @@ window.ShaheenApp = {
   clearFormErrors,
   showFormFieldError
 };
+
 
