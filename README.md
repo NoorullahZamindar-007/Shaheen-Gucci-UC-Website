@@ -2,7 +2,7 @@
 
 A static multilingual gaming marketplace website built with HTML5, CSS3, Bootstrap 5, Tailwind CSS, and vanilla JavaScript.
 
-## Project Structure
+## Project Structure 
 
 ```text
 shaheen-gucci-online-game-center/
