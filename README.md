@@ -1,7 +1,7 @@
 # Shaheen Gucci Online Game Center
 
 A static multilingual gaming marketplace website built with HTML5, CSS3, Bootstrap 5, Tailwind CSS, and vanilla JavaScript.
- 
+  
 ## Project Structure  
  
 ```text
