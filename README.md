@@ -4,7 +4,7 @@ A static multilingual gaming marketplace website built with HTML5, CSS3, Bootstr
   
 ## Project Structure  
  
-```text
+```text 
 shaheen-gucci-online-game-center/
 ├─ index.html
 ├─ README.md
